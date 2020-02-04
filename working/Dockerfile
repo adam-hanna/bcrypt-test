@@ -25,7 +25,6 @@ RUN apk add --no-cache --virtual .gyp \
 USER node
 
 # 5. Install deps
-# RUN rm package-lock.json && rm -rf ./node_modules/ && npm install
 RUN npm install
 
 # 6. Copy the app
