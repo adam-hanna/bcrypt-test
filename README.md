@@ -1,8 +1,8 @@
 # Example of not copying node_modules to Docker container
 
-This example repo shows why it is important to not copy node_modules folder to a docker container.
+This example repo shows why it is important to not copy `node_modules` folder to a docker container.
 
-In this example, the `bcrypt` package installation requires source compilation and will not run properly in all scenarios with the pre-built binaries included in the dev computer's `node_modules` folder.
+In this example, the `bcrypt` package installation requires source compilation and will not run properly in all scenarios with the pre-built binaries included on the dev computer's `node_modules` folder.
 
 ## Steps to reproduce
 
