@@ -12,7 +12,7 @@ $ yarn
 $ yarn start
 
 yarn run v1.21.1
-$ node index.js
+node index.js
 hashed password is $2b$10$lXFVJtvAv8bs14HJstXm3O7Jsi0Tbkfpp33i.kK1DKkVGG5TOF/US
 Done in 0.21s
 
