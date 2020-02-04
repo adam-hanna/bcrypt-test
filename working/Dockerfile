@@ -1,7 +1,7 @@
 FROM node:12-alpine
 
 # 1. Create the working directory at '/home/node/app' and give node use permissions
-RUN mkdir -p /usr/src/prod/node_modules /usr/src/prod/api/node_modules /usr/src/prod/client/node_modules && chown -R node:node /usr/src/prod
+RUN mkdir -p /usr/src/prod/node_modules && chown -R node:node /usr/src/prod
 
 # 2. Set the working directory
 WORKDIR /usr/src/prod
